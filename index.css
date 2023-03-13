@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+* {
+    font-family: 'Outfit', sans-serif;
+}
+
+body{
+    background-color: #0D192C;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.nft{
+    width: 302px;
+    height: 548px;
+    background: #15263F;
+    box-shadow: 0px 25px 50px rgb(0 0 0 / 10%);
+    border-radius: 15px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 152px;
+    
+    
+}
+
+.nft_photo{
+    width: 302px;
+    height: 302px;
+    border-radius: 8px;
+}
+
+.text1{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 28px;
+    color: white;
+    width: 302px;
+    height: 28px;
+    margin-top: 24px;
+}
+
+.text1:hover{
+    color: #00FFF8;
+    cursor: pointer;
+    transition: ease 0.4s;
+}
+
+.text2{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;
+    color: #8BACD9;
+    width: 302px;
+    height: 52px;
+    margin-top: 16px;
+}
+
+.line1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 24px;
+
+}
+
+.eth_folder{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 6.5px;
+}
+
+.eth_photo{
+    width: 11px;
+    height: 20px;
+}
+
+.eth_text{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #00FFF8;
+    height: 20px;
+    width: 75px;
+}
+
+.date{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 9px;
+    
+}
+
+.clock{
+    width: 13.33px;
+}
+
+.date_text{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #8BACD9;
+    
+
+}
+
+
+
+.eye{
+    display: none;
+    margin: auto;
+
+}
+
+.hover_pic{
+    position: relative;
+}
+
+.hover_pic:hover .eye{
+    display: inline;
+}
+
+.box{
+    position: absolute;
+    top: 0;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    width: 302px;
+    height: 302px;
+}
+
+.hover_pic:hover .box{
+    display: flex;
+    width: 302px;
+    height: 302px;
+    background: hwb(178 0% 0% / 0.5);
+    cursor: pointer;
+    transition: ease 0.3s;
+}
+
+.kubi{
+    background: #2E405A;
+    width: 302px;
+    height: 1px;
+    margin-top: 24px;
+}
+
+.creator{
+    display: flex;
+    align-items: center;
+    margin-top: 16px;
+    gap: 16px;
+
+    
+}
+
+.creator_photo{
+    width: 33px;
+    border: 1px solid #FFFFFF;
+    border-radius: 33px;
+}
+
+.name_group{
+    display: flex;
+    gap: 5px;
+}
+
+.creator_of{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #8BACD9;
+    width: 81px;
+    height: 20px;
+}
+
+.name{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    width: 93px;
+    height: 20px;
+}
+
+.name:hover{
+    color: #00FFF8;
+    cursor: pointer;
+    transition: ease 0.4s;
+}
